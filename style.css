@@ -1,0 +1,83 @@
+/* 設定現代科技感背景及文字顏色 */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 現代字體 */
+  background: linear-gradient(135deg, #f0f0f0, #dfe3e6); /* 淺灰漸變背景 */
+  color: #333; /* 深灰文字 */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #1abc9c; /* 科技感顏色 */
+  font-size: 3rem;
+  margin-top: 50px;
+  letter-spacing: 2px;
+}
+
+/* 設定導航列樣式 */
+nav {
+  text-align: center;
+  background-color: #ffffff; /* 白色背景 */
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 輕微陰影 */
+  margin-bottom: 50px;
+  border-radius: 10px; /* 圓角效果 */
+  width: 80%; /* 使導航列寬度適應頁面 */
+  margin: 0 auto; /* 使導航列居中 */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* 使用 flexbox 讓按鈕水平排列 */
+  justify-content: center; /* 將按鈕居中 */
+  gap: 40px; /* 按鈕之間的間距 */
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #1abc9c; /* 科技感綠色 */
+  border: 2px solid #1abc9c;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: linear-gradient(45deg, #1abc9c, #16a085);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(26, 188, 156, 0.8); /* 綠色發光效果 */
+}
+
+/* 可選：頁面中心化 */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 設置頁面內內容的邊距 */
+.container {
+  padding: 0 20px; /* 左右內邊距，避免內容緊貼頁邊 */
+}
+
+/* 增加按鈕與頁面邊緣的間距 */
+nav ul li a {
+  padding: 12px 24px;
+  font-size: 1rem;
+}
+
+/* 將搜尋區域的容器置中 */
+#search-form {
+  text-align: center; /* 讓搜尋框內的內容置中 */
+  margin-bottom: 20px; /* 增加一些間距 */
+}
